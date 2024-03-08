@@ -1,6 +1,6 @@
-# Simple Login Page Project
+# Login Page Project
 
-Welcome to the Simple Login Page project! This project aims to provide a basic login page implementation using HTML and CSS. It serves as a starting point for beginners to learn about web development and familiarize themselves with creating user interfaces for login functionality.
+Welcome to the Login Page project! This project aims to provide a basic login page implementation using HTML and CSS. It serves as a starting point for beginners to learn about web development and familiarize themselves with creating user interfaces for login functionality.
 
 ## Features
 - Login from with fields like username and password
