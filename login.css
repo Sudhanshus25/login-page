@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2128959116/display_1500/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg);
+
+    height: 99vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 280px;
+    width: 295px;
+    border: 2px solid white;
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    
+}
+
+.container h1{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.inputs label {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs label #username{
+    margin: 2px 0 15px 0;
+    padding: 6px 45px;
+    border-radius: 14px;
+    background: transparent;
+    border: 1px solid rgb(189, 180, 180);
+    color: white;
+
+}
+.inputs label #username::placeholder{
+    color: white;
+}
+
+.inputs label #password{
+    margin: 2px 0 10px 0;
+    padding: 6px 45px;
+    border-radius: 14px;
+    background: transparent;
+    border: 1px solid rgb(189, 180, 180);
+    color: white;
+}
+
+.inputs label #password::placeholder{
+    color: white;
+    
+}
+
+.inputs .remb{
+    color: white;
+    position: relative;
+    left: 6%;
+    top: 3px;
+    padding: 1px;
+    display: inline-flex;
+}
+
+.inputs .frgt{
+    position: relative;
+    left: 20%;
+    color: white;
+    text-decoration: none;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(46, 46, 46);
+    background-color: aqua;
+    border-radius: 15px;
+    text-decoration: none;
+    color: brown;
+    margin: 4px;
+    padding: 5px 110px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inputs #new{
+    text-decoration: none;
+    color: white;
+    padding: 0 0 0 25px ;
+}
+
+.inputs #signup{
+    text-decoration: none;
+    padding: 0 0 12px 0;
+}
